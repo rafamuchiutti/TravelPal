@@ -1,0 +1,41 @@
+<!-- We don't need a full layout in this file because this page will be parsed with Ajax. -->
+
+<!-- Top Navbar-->
+<div class="navbar">
+        <div class="navbar-inner">
+            <div class="left">
+                <a href="index.html" class="back link">
+                    <i class="icon icon-back"></i>
+                    <span>Back</span>
+                </a>
+            </div>
+            <div class="center sliding">CURRENCY</div>
+            <div class="right">
+                <a href="#" class="link icon-only open-panel"><i class="icon icon-bars"></i></a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="pages">
+        <div data-page="about" class="page">
+            <div class="page-content">
+                    <p class="text-center"><img src="https://media.giphy.com/media/3o6Ygp85mD8sl8hxFS/giphy.gif"
+                        width="250px" height="250px"></p><br>
+                <div class="content-block">
+
+                        <p>Money Currency</p>
+                        <div id="getRate">Waiting currency money</div>
+                        <input type="number" id="input"> </input>
+                        <button onclick="convert()"> Convert from Dollar to current money </button>
+                        <div id="result"> Your conversion is.. </div>
+
+
+                        <div id="getRate">Waiting currency money</div>
+                        <input type="number" id="input"> </input>
+                        <button onclick="convert2()"> Convert current money to Dollar </button>
+                        <div id="result2"> Your conversion is.. </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    

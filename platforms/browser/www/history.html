@@ -1,0 +1,33 @@
+<!-- We don't need a full layout in this file because this page will be parsed with Ajax. -->
+
+<!-- Top Navbar-->
+<div class="navbar">
+    <div class="navbar-inner">
+        <div class="left">
+            <a href="index.html" class="back link">
+                <i class="icon icon-back"></i>
+                <span>Back</span>
+            </a>
+        </div>
+        <div class="center sliding">HISTORY</div>
+        <div class="right">
+            <a href="#" class="link icon-only open-panel"><i class="icon icon-bars"></i></a>
+        </div>
+    </div>
+</div>
+
+<div class="pages">
+    <div data-page="history" class="page">
+        <div class="page-content">
+            <p class="text-center"><img src="https://media.giphy.com/media/d3yxg15kJppJilnW/giphy.gif" width="250px"
+                    height="250px"></p><br>
+            <div class="content-block">
+                <h2 onclick="writeFile()">Click Here To Save Your History</h2>
+            </div>
+            <div class="content-block">
+                <h2 onclick="readFile()">Click Here To See Your History</h2>
+                <div id="historicID">...</div><br>
+            </div>
+        </div>
+    </div>
+</div>
